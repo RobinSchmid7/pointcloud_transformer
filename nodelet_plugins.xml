@@ -1,0 +1,7 @@
+<library path="lib/libpointcloudTransformer">
+    <class name="pointcloud_transformer/pointcloudTransformer" type="pointcloud_transformer::pointcloudTransformer" base_class_type="nodelet::Nodelet">
+        <description>
+            Pointcloud transformer nodelet
+        </description>
+    </class>
+</library>

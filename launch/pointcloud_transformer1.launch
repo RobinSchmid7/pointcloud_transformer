@@ -1,0 +1,9 @@
+<launch>
+    <node pkg="nodelet" type="nodelet" name="test_nodelet"  args="manager" output="screen"/>
+
+    <!-- Pointcloud -->
+    <node pkg="nodelet" type="nodelet" name="pointcloud_transformer1" args="load pointcloud_transformer/pointcloudTransformer test_nodelet" output="screen">
+        <param name="to_frame" value="output_frame"/>
+        <remap from="~input_pcl" to="/pointcloud_topic"/>
+    </node>
+</launch>
