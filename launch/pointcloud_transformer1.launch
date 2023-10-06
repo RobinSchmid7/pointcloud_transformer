@@ -4,6 +4,7 @@
     <!-- Pointcloud -->
     <node pkg="nodelet" type="nodelet" name="pointcloud_transformer1" args="load pointcloud_transformer/pointcloudTransformer test_nodelet" output="screen">
         <param name="to_frame" value="output_frame"/>
-        <remap from="~input_pcl" to="/pointcloud_topic"/>
+        <remap from="~input_pcl" to="/pointcloud_topic_in"/>
+        <remap from="~output_pcl" to="/pointcloud_topic_out"/>
     </node>
 </launch>
