@@ -3,7 +3,7 @@
 ## Installation
 
 ``
-catkin install pointcloud_transformer
+catkin build pointcloud_transformer
 ``
 
 ## Usage
