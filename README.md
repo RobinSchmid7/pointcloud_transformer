@@ -30,3 +30,4 @@ roslaunch pointcloud_transformer pointcloud_transformer2.launch
 
 ## Credits
 Robin Schmid, schmidrobin@outlook.com
+Tim Kambic, tim.kambic12@gmail.com
